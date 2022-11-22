@@ -1,0 +1,20 @@
+.item{
+    background-color: rgb(172, 104, 206);
+    border-radius: 8px;
+    width: 80%;
+    margin: 5px auto ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.item .delete{
+    /* background-color: aqua; */
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.item .delete:hover{
+    color: red;
+    
+}
