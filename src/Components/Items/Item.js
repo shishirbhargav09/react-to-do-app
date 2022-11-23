@@ -19,7 +19,7 @@ function Item(props) {
   return (<>
     <div className='item'>
     <div className='description' style={{
-      textDecoration: deleteitem ? 'line-through red' : 'none'
+      textDecoration: deleteitem ? 'line-through rgb(0, 255, 242)' : 'none'
     }}>{text}</div>
     <div className='delete'><AiOutlineDelete onClick={deleteitemHandler}
     /></div>
